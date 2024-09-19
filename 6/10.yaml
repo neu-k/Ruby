@@ -1,0 +1,7 @@
+--- # 配列["Red", "Green", "Blue"]のYAML表現
+- Red
+- Green
+- Blue
+--- # ハッシュ{"country" => "Japan", "state" => "Tokyo"}のYAML表現
+country: Japan
+state: Tokyo
