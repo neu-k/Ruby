@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Hello, 
+      <% if name %>
+        <%= ERB::Util.html_escape name %>
+      <% else %>
+        Guest
+      <% end %>!!
+    </h1>
+
+    <table>
+      <tr><td>IPアドレス</td><td><%= ERB::Util.html_escape ip %></td></tr>
+      <tr><td>User-Agent</td><td><%= ERB::Util.html_escape user_agent %></td></tr>
+    </table>
+  </body>
+</html>
