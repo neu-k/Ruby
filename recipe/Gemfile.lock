@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    nokogiri (1.16.7-arm64-darwin)
+      racc (~> 1.4)
+    racc (1.8.1)
     rack (3.0.11)
     rackup (2.1.0)
       rack (>= 3)
@@ -11,6 +14,7 @@ PLATFORMS
   arm64-darwin-23
 
 DEPENDENCIES
+  nokogiri
   rack (= 3.0.11)
   rackup (= 2.1.0)
   webrick (= 1.8.1)
