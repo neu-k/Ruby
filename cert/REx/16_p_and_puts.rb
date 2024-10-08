@@ -28,4 +28,3 @@ puts B.ancestors
 #=> Object
 #=> Kernel
 #=> BasicObject
-
