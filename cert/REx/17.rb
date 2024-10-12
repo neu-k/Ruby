@@ -15,5 +15,6 @@ m.instance_eval(<<-EOS)
 EOS
 
 m.module_eval(&_proc)
+# module_evalにブロックを渡しているため、スコープはこの箇所＝トップレベルになり再定義の警告が出る
 
 p m.const   # つまり、定数探索に関する問題
