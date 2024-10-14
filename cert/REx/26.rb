@@ -5,8 +5,8 @@ end
 
 option = {arg2: 900}
 
-foo arg1: 200, **option   #=> OK
+foo arg1: 200, **option     #=> OK
 
-foo **option, arg1: 200   #=> OK
 
-# foo arg1: 200, option   #=> SyntaxError
+# foo **option, arg1: 200   #=> OK
+# foo arg1: 200, option     #=> SyntaxError
